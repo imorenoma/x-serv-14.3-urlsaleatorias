@@ -25,7 +25,7 @@ try:
         randomnum = random.randrange(1, 10000000000)
 
         recvSocket.send(bytes("HTTP/1.1 200 OK\r\n\r\n" +
-                        '<html><h1>Ranndom numbers server</h1>' +
+                        '<html><h1>Random numbers server</h1>' +
                               '</body>Hola. ' +
                               '<a href= "http://localhost:1234/' +
                               str(randomnum) +
